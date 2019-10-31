@@ -1,0 +1,32 @@
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.exe.config
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csprojResolveAssemblyReference.cache
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.Form1.resources
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.Properties.Resources.resources
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.GenerateResource.Cache
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.exe
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.pdb
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.exe
+c:\users\ota\documents\visual studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.pdb
+C:\Users\Ota\Documents\Visual Studio 2013\Projects\StateSpaceSearch\StateSpaceSearch\bin\Debug\PowerCollections.xml
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.exe.config
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.exe
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.pdb
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\bin\Debug\PowerCollections.xml
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csprojResolveAssemblyReference.cache
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.Form1.resources
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.Properties.Resources.resources
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.GenerateResource.Cache
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.CoreCompileInputs.cache
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.exe
+C:\Users\Ota\Desktop\cvikoUI1\2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.pdb
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.exe.config
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.exe
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.pdb
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\bin\Debug\PowerCollections.xml
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csprojResolveAssemblyReference.cache
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.Form1.resources
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.Properties.Resources.resources
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.GenerateResource.Cache
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.CoreCompileInputs.cache
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.exe
+C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.pdb
