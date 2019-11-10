@@ -30,3 +30,14 @@ C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\
 C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.CoreCompileInputs.cache
 C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.exe
 C:\Users\Trunda_Otakar\Desktop\skola\cvikoUI1\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.pdb
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.exe.config
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.exe
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\bin\Debug\StateSpaceSearch.pdb
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csprojAssemblyReference.cache
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.Form1.resources
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.Properties.Resources.resources
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.GenerateResource.cache
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.CoreCompileInputs.cache
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.csproj.CopyComplete
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.exe
+C:\Users\Werit\Desktop\Current work\2019-2020\AI1\DU\DU2\StateSpaceSearch\StateSpaceSearch\obj\Debug\StateSpaceSearch.pdb

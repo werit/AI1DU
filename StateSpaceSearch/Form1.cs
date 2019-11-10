@@ -25,18 +25,18 @@ namespace StateSpaceSearch
             //ZDE VYBERTE PROBLEM:
 
             //Fifteen Puzzle:
-            problemInstance = new FifteenPuzzleProblem();
-            visualizer = new FifteenPuzzleVisualizer();
-            problemInstance.readFromFile("FP1.txt");
+            //problemInstance = new FifteenPuzzleProblem();
+            //visualizer = new FifteenPuzzleVisualizer();
+            //problemInstance.readFromFile("FP1.txt");
             //problemInstance.readFromFile("FP2.txt");
             //problemInstance.readFromFile("FP3.txt");
 
 
             ////TSP:
-            //problemInstance = new TSPProblem();
-            //visualizer = new TSPVisualizer();
-            ////problemInstance.readFromFile("TSP1.txt");
-            //problemInstance.readFromFile("TSP2.txt");
+            problemInstance = new TSPProblem();
+            visualizer = new TSPVisualizer();
+            //problemInstance.readFromFile("TSP1.txt");
+            problemInstance.readFromFile("TSP2.txt");
             ////problemInstance = TSPProblem.createRandom(10, new Random(123));
 
             ////Rubik's cube:
@@ -58,11 +58,15 @@ namespace StateSpaceSearch
 			//ZDE NASTAVTE SVUJ SearchEngine
 
 			eng = new SearchEngine();
+			 
 
 
 
 
 			eng.search(currentState);
+            /*var iterativeDeepeningEng = new IterativeDeepening();
+            Console.WriteLine("------------------------\nIterative deepening\n-------------------");
+            iterativeDeepeningEng.search(currentState);*/
             
         }
 
