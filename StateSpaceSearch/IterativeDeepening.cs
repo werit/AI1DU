@@ -30,14 +30,9 @@ namespace StateSpaceSearch
             start = DateTime.Now;
             for (var cutOff = 1; cutOff < int.MaxValue; cutOff++)
             {
-                State currentState = null;
                 predecessor = new Dictionary<State, State>();
-                gValues.Clear();
-                openNodes.clear();
-                
-                openNodes.insert(0, s);
                 openNodeStack.Push(new StateDto(0,s));
-                gValues.Add(s, new StateInformation());
+                
                 predecessor.Add(s, null);
                 var wasCutOffReached = false;
             
@@ -46,32 +41,28 @@ namespace StateSpaceSearch
                     var stateDto = (StateDto)openNodeStack.Peek();
                     if (stateDto.WasExpanded)
                     {
-                        openNodeStack.Pop();
-                        predecessor.Remove(stateDto.State);
+                        RemoveDeadBranchState(openNodeStack, stateDto);
                         continue;
                     }
-                    currentState = stateDto.State;
-                    /*if (gValues[currentState].isClosed)
-                        continue;
-                    addToClosedList(currentState);*/
+                    var currentState = stateDto.State;
                     if (currentState.isFinal())
                     {
-                        DateTime end = DateTime.Now;
+                        var end = DateTime.Now;
                         searchTime = (end - start);
-                        int GVAL = stateDto.Depth;
+                        var GVAL = stateDto.Depth;
                         printMessage("search ended in " + searchTime.TotalSeconds + " seconds, plan length: " + GVAL, quiet);
                         printSearchStats(quiet);
-                        this.result = extractSolution(currentState);
-                        this.solutionCost = GVAL;
+                        result = extractSolution(currentState);
+                        solutionCost = GVAL;
                         printMessage("--- search ended ---", quiet);
                         return;
                     }
-                    int currentGValue = stateDto.Depth;
+                    var currentGValue = stateDto.Depth;
                     if (currentGValue + 1 > cutOff)
                     {
+                        // set cut off reached let know we can try again with greater depth
                         wasCutOffReached = true;
-                        openNodeStack.Pop();
-                        predecessor.Remove(stateDto.State);
+                        RemoveDeadBranchState(openNodeStack, stateDto);
                         continue;
                     }
                     currentState.getSuccessors(successors);
@@ -81,18 +72,12 @@ namespace StateSpaceSearch
                     
                     foreach (var item in successors)
                     {
-                        State state = item.state;
-                        
-                        //gValues.Add(s, new StateInformation(gValue));
-                        if (!predecessor.ContainsKey(state))
-                        {
-                            int gVal = currentGValue + item.cost;
-                            openNodeStack.Push(new StateDto(gVal,state));
-                            predecessor.Add(state, currentState);
-                        }
+                        var state = item.state;
 
-                        //openNodes.insert(gValue, s);
-                        //addToOpenList(state, gVal, currentState);
+                        if (predecessor.ContainsKey(state)) continue;
+                        var gVal = currentGValue + item.cost;
+                        openNodeStack.Push(new StateDto(gVal,state));
+                        predecessor.Add(state, currentState);
                     }
 
                 }
@@ -100,6 +85,12 @@ namespace StateSpaceSearch
                 if (!wasCutOffReached) break;
             }
             printMessage("No solution exists.", quiet);
+        }
+
+        private void RemoveDeadBranchState(Stack openNodeStack, StateDto stateDto)
+        {
+            openNodeStack.Pop();
+            predecessor.Remove(stateDto.State);
         }
     }
 }

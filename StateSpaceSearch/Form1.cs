@@ -35,8 +35,8 @@ namespace StateSpaceSearch
             ////TSP:
             problemInstance = new TSPProblem();
             visualizer = new TSPVisualizer();
-            //problemInstance.readFromFile("TSP1.txt");
-            problemInstance.readFromFile("TSP2.txt");
+            problemInstance.readFromFile("TSP1.txt");
+            //problemInstance.readFromFile("TSP2.txt");
             ////problemInstance = TSPProblem.createRandom(10, new Random(123));
 
             ////Rubik's cube:
@@ -55,19 +55,10 @@ namespace StateSpaceSearch
 
         private void button1_Click(object sender, EventArgs e)
         {
-			//ZDE NASTAVTE SVUJ SearchEngine
+            //ZDE NASTAVTE SVUJ SearchEngine
 
-			eng = new SearchEngine();
-			 
-
-
-
-
-			eng.search(currentState);
-            /*var iterativeDeepeningEng = new IterativeDeepening();
-            Console.WriteLine("------------------------\nIterative deepening\n-------------------");
-            iterativeDeepeningEng.search(currentState);*/
-            
+            eng = new IterativeDeepening();
+            eng.search(currentState);
         }
 
         private void button2_Click(object sender, EventArgs e)
